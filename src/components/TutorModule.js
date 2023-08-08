@@ -1,12 +1,12 @@
 import React from 'react';
 
-const StudentModule = () => {
+const TutorModule = () => {
   return (
-    <div>
-      <h2>Student Module</h2>
-      {/* Your content and interactions */}
+    <div className="module"> {/* Apply the generalized CSS class for styling */}
+      <h2>Tutor Module</h2>
+      <p>Add something here</p>
     </div>
   );
 };
 
-export default StudentModule;
+export default TutorModule;

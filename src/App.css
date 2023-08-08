@@ -1,3 +1,4 @@
+/* Reset default margin and padding */
 body, h1, h2, p, ul, li {
   margin: 0;
   padding: 0;
@@ -17,7 +18,7 @@ header {
   text-align: center;
 }
 
-/* navigation links styling */
+/* Navigation links styling */
 nav ul {
   list-style: none;
   display: flex;
@@ -35,8 +36,8 @@ nav ul li a {
   font-weight: bold;
 }
 
-/* Student module styling */
-.student-module {
+/* Generalized module styling (applied to both student and tutor modules) */
+.module {
   background-color: white;
   border: 1px solid #ddd;
   padding: 1rem;
@@ -46,17 +47,16 @@ nav ul li a {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.student-module h2 {
+.module h2 {
   margin-bottom: 1rem;
 }
 
-/* Recommnende subjects lists styling */
-.student-module ul {
+/* List styling within modules */
+.module ul {
   list-style: none;
   padding: 0;
 }
 
-.student-module ul li {
+.module ul li {
   margin-bottom: 0.5rem;
 }
-
