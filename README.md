@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Intelligent Tutoring System App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Intelligent Tutoring System App! This is a web-based application built using React.js that aims to provide an interactive and personalized learning experience for students. The app utilizes AI-powered recommendations to suggest relevant study materials to students based on their chosen subjects.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Personalized Recommendations:** The app employs an AI engine to generate personalized subject recommendations for students.
+- **Student Module:** Students can explore recommended subjects and access related study materials.
+- **Tutor Module:** Tutors have a dedicated module to interact with students and provide guidance.
+- **Domain Model:** Learn about the coverage and functionality of the Intelligent Tutoring System.
 
-### `npm start`
+## Usage
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Access the home page to search for specific subjects.
+- Navigate to the Student Module to view recommended subjects and study materials.
+- Explore the Tutor Module to engage with students and offer assistance.
+- Learn about the system's Domain Model to understand its scope and purpose.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- React.js
+- React Router for routing
+- AI Engine for personalized recommendations
+- HTML5 and CSS3 for styling
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Contributors
 
-### `npm run build`
+- Allaine Madeda  #Bl
+- Lecturer
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contact
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+For inquiries and support, please contact allainemadeda@gmail.com.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Presentation to Supervisor
 
-### `npm run eject`
+For your presentation to your supervisor, you can create a slideshow using tools like Microsoft PowerPoint, Google Slides, or any presentation software you prefer. Here's an outline you can follow:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. **Introduction:**
+   - Briefly introduce the app and its purpose.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. **Features:**
+   - Highlight the key features of the app, including personalized recommendations, student and tutor modules, and the domain model.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. **Demo:**
+   - Showcase a live demonstration of the app, navigating through its various modules.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. **Architecture:**
+   - Present the app's architecture, showcasing the component structure and how data flows.
 
-## Learn More
+5. **Technologies Used:**
+   - Discuss the technologies and libraries used in building the app.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+6. **Challenges and Solutions:**
+   - Share any challenges faced during development and how they were overcome.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+7. **Future Enhancements:**
+   - Mention potential future enhancements and features you plan to add.
 
-### Code Splitting
+8. **Conclusion:**
+   - Summarize the app's significance and its potential impact on learning experiences.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Remember to use visuals, screenshots, and concise bullet points to make your presentation engaging and easy to follow. Good luck with your presentation!
