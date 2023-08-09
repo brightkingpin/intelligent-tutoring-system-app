@@ -2,9 +2,11 @@ import React from 'react';
 
 const DomainModel = () => {
   return (
-    <div>
+    <div className="module">
       <h2>Domain Model</h2>
-      {/* Add your content related to the domain model here */}
+      <p>Our Intelligent Tutoring System covers various subjects and topics.</p>
+      <p>It uses AI to recommend personalized learning materials to students.</p>
+      <p>Explore the subjects and start learning!</p>
     </div>
   );
 };

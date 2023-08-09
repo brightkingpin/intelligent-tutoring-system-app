@@ -2,9 +2,10 @@ import React from 'react';
 
 const TutorModule = () => {
   return (
-    <div className="module"> {/* Apply the generalized CSS class for styling */}
+    <div className="module">
       <h2>Tutor Module</h2>
-      {/* Add your content and interactions for the tutor module */}
+      <p>Welcome to the Tutor Module of the Intelligent Tutoring System!</p>
+      <p>Provide guidance and interact with students here.</p>
     </div>
   );
 };

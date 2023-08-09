@@ -60,3 +60,32 @@ nav ul li a {
 .module ul li {
   margin-bottom: 0.5rem;
 }
+
+/* ... Existing styles ... */
+
+/* Styling for the home page */
+.home {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.home input {
+  padding: 0.5rem;
+}
+
+.home button {
+  padding: 0.5rem 1rem;
+  background-color: #3498db; /* Change to a different color */
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px; /* Add border-radius for a rounded button */
+}
+
+/* Mobile app-like appearance */
+@media (max-width: 768px) {
+  .module {
+    margin: 1rem; /* Adjust spacing for smaller screens */
+    padding: 0.5rem;
+  }
+}
