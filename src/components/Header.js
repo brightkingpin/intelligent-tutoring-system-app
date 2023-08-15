@@ -1,3 +1,4 @@
+// components/Header.js
 import React from 'react';
 
 const Header = () => {
@@ -8,7 +9,7 @@ const Header = () => {
         <ul>
           <li><a href="/">Home</a></li>
           <li><a href="/student/math">Student Module</a></li>
-          <li><a href="/tutor">Tutor Module</a></li>
+          <li><a href="/tutor/math">Tutor Module</a></li>
           <li><a href="/domain">Domain Model</a></li>
         </ul>
       </nav>

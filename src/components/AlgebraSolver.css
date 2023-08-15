@@ -1,0 +1,17 @@
+/* My_AlgebraSolver.css */
+.solution {
+    height: 0;
+    overflow: hidden;
+    transition: height 1.0s ease; /* Transition property for height change */
+  }
+  
+  .solution.show {
+    height: 100px; /* Expands the container to show the solution */
+  }
+
+  .solved-message {
+    color: green;
+    font-weight:bold;
+    margin-top: 10px;
+  }
+  

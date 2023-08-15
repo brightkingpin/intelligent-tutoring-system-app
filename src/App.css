@@ -1,12 +1,11 @@
-/* Reset default margin and padding */
-body, h1, h2, p, ul, li {
+body, h1, h2, p, ul, li { /* It Resets default margin and padding */
   margin: 0;
   padding: 0;
 }
 
 /* Background for the whole app */
 body {
-  background-color: #f4f4f4;
+  background-color: #99d022;
   font-family: Arial, sans-serif;
 }
 
@@ -36,8 +35,7 @@ nav ul li a {
   font-weight: bold;
 }
 
-/* Generalized module styling (applied to both student and tutor modules) */
-.module {
+.module { /* Generalized module styling (applied to both student and tutor modules) */
   background-color: white;
   border: 1px solid #ddd;
   padding: 1rem;
@@ -61,8 +59,6 @@ nav ul li a {
   margin-bottom: 0.5rem;
 }
 
-/* ... Existing styles ... */
-
 /* Styling for the home page */
 .home {
   text-align: center;
@@ -75,17 +71,28 @@ nav ul li a {
 
 .home button {
   padding: 0.5rem 1rem;
-  background-color: #3498db; /* Change to a different color */
+  background-color: #3498db; 
   color: white;
   border: none;
   cursor: pointer;
-  border-radius: 5px; /* Add border-radius for a rounded button */
+  border-radius: 50px; /* border-radius for a rounded button */
+}
+
+/* Button styling for showing/hiding solution */
+.solution button {
+  padding: 0.3rem 0.7rem;
+  background-color: #0d6bca; 
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px; /* Add border-radius for a rounded button */
+  margin-top: 0.5rem;
 }
 
 /* Mobile app-like appearance */
 @media (max-width: 768px) {
   .module {
     margin: 1rem; /* Adjust spacing for smaller screens */
-    padding: 0.5rem;
+    padding: 1.0rem;
   }
 }

@@ -1,9 +1,9 @@
-import React, { useState } from 'react'; // Import useState
-import { useNavigate } from 'react-router-dom'; // Import useNavigate
+import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
   const [subject, setSubject] = useState('');
-  const navigate = useNavigate(); // Use the useNavigate hook
+  const navigate = useNavigate();
 
   const handleSearch = () => {
     if (subject) {

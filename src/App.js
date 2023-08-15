@@ -21,8 +21,11 @@ function App() {
             path="/student/:subject"
             element={<StudentModule aiEngine={aiEngine} />}
           />
-          <Route path="/tutor" element={<TutorModule />} /> {/* Add TutorModule Route */}
-          <Route path="/domain" element={<DomainModel />} /> {/* Add DomainModel Route */}
+          <Route
+            path="/tutor/:subject" // Modify the path
+            element={<TutorModule aiEngine={aiEngine} />} // Pass aiEngine to TutorModule
+          />
+          <Route path="/domain" element={<DomainModel />} />
         </Routes>
       </div>
     </Router>
