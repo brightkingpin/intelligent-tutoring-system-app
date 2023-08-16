@@ -6,12 +6,18 @@ const Login = ({ onLogin }) => {
   const [error, setError] = useState('');
 
   const handleLogin = () => {
-    // I have implemented my authentication logic here
+    // my authentication logic here
     if (username === 'lecturer@gmail.com' && password === '123456') {
-      onLogin(); // I Called the onLogin function to be passed as a prop
+      onLogin(); // I Called the onLogin function passed as a prop
+      setError('');
+      localStorage.setItem('isLoggedIn', 'true'); // I Stored login status
     } else {
       setError('Invalid credentials');
     }
+  };
+
+  const handleLogout = () => {
+    localStorage.removeItem('isLoggedIn'); // I ClearED stored login status
   };
 
   return (
@@ -30,6 +36,7 @@ const Login = ({ onLogin }) => {
         onChange={(e) => setPassword(e.target.value)}
       />
       <button onClick={handleLogin}>Login</button>
+      <button onClick={handleLogout}>Logout</button>
       {error && <p>{error}</p>}
     </div>
   );
